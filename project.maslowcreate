@@ -42,24 +42,12 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1009,
+                    "x": 931,
                     "y": 164,
                     "ioValues": []
                 }
             ],
-            "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 389001,
-                    "ap2ID": 279445
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 279445
-                }
-            ],
+            "allConnectors": [],
             "fileTypeVersion": 1
         }
     ]
