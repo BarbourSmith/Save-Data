@@ -19,10 +19,19 @@
                         {
                             "name": "radius",
                             "ioValue": 10
-                        },
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 235,
+                    "y": 213,
+                    "uniqueID": 722213,
+                    "ioValues": [
                         {
-                            "name": "max segment size",
-                            "ioValue": 1
+                            "name": "radius",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -40,9 +49,22 @@
                     ]
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 481,
+                    "y": 237,
+                    "uniqueID": 432370,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 931,
+                    "x": 991,
                     "y": 164,
                     "ioValues": []
                 }
@@ -56,11 +78,18 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 722213,
+                    "ap2ID": 432370
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 279445
                 }
             ],
             "fileTypeVersion": 1
         }
-    ]
+    ],
+    "circleSegmentSize": 2
 }
